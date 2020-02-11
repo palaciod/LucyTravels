@@ -405,7 +405,7 @@ a {
   background-color: rgb(207, 207, 207);
   position: relative;
   margin: auto;
-  overflow: hidden;
+  overflow: scroll;
 }
 .smallAboutImageContainer {
   height: 60%;
@@ -426,6 +426,7 @@ a {
   width: 100%;
   position: relative;
   margin: auto;
+
   /* background-color: green; */
   background-color: rgb(207, 207, 207);
   text-align: center;
