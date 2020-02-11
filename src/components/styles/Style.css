@@ -1,0 +1,558 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+/* Start of Single Page Styling  -----------------------------> PAGE*/
+.page {
+  height: 700%;
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+/* Start NavBar Styling -----------------------------> NAVBAR*/
+.navbar {
+  top: 0%;
+  height: 1.5%;
+  width: 100%;
+  background-color: lightcoral;
+  position: sticky;
+  display: flex;
+  z-index: 100000;
+}
+.nav-item {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+  line-height: 11vh;
+  font-size: 4vh;
+  font-family: hwt-artz, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.nav-item:hover {
+  color: rgb(42, 125, 173);
+  background-color: rgb(241, 241, 241);
+}
+.nav-item:hover .a-link-large-navbar {
+  color: rgb(42, 125, 173);
+  background-color: rgb(241, 241, 241);
+}
+.a-link-large-navbar {
+  text-decoration: none;
+  color: black;
+}
+/* Small NavBar Styling  */
+.smallNavBar {
+  top: 0%;
+  height: 1.5%;
+  width: 100%;
+  background-color: lightcoral;
+  position: sticky;
+  z-index: 1000;
+}
+
+.dropdown {
+  font-family: hwt-artz, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 10.5vh;
+  font-size: 5vh;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  z-index: 1;
+}
+.dropDownLink {
+  text-decoration: none;
+  color: black;
+  font-size: 4vh;
+}
+.dropDownLink:hover {
+  color: rgb(42, 125, 173);
+  background-color: rgb(230, 230, 230);
+  font-size: 5vh;
+}
+.dropdown:hover {
+  background-color: rgb(241, 241, 241);
+}
+.dropdown:hover .nav-item {
+  color: rgb(32, 63, 121);
+  background-color: rgb(241, 241, 241);
+  font-size: 5vh;
+}
+.dropdown:hover .dropdown-content {
+  display: grid;
+  background-color: rgb(241, 241, 241);
+}
+
+/* Start Home Styling -----------------------------> HOME */
+.body {
+  height: 98.5%;
+  width: 100%;
+  position: absolute;
+  background-color: lightgray;
+}
+.parallax {
+  background-image: url("natalia01.jpg");
+  height: 10%;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0% 30%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 900;
+  /* Text Alignment */
+  text-align: center;
+  font-size: 18vh;
+  line-height: 60vh;
+  font-family: viktor-script, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  overflow: hidden;
+}
+.mainBody {
+  height: 88%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: rgb(185, 179, 114);
+}
+.leftBody {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /* background-color: rgb(185, 114, 152); */
+  background-color: rgb(214, 214, 214);
+}
+.rightBody {
+  height: 100%;
+  width: 30%;
+  position: relative;
+  background-color: rgb(116, 185, 114);
+}
+/* Blogs styling -----------------------------> BLOGS*/
+.blogs {
+  height: 98%;
+  width: 95%;
+  position: relative;
+  /* background-color: rgb(182, 42, 42); */
+  background-color: rgb(214, 214, 214);
+  margin: auto;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+/* Blog styling  -----------------------------> BLOG*/
+.blog {
+  height: auto;
+  max-width: 95%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+}
+.blogPicture {
+  height: 50%;
+  width: 90%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+.blogParagraph {
+  text-align: left;
+  width: 90%;
+  height: 10%;
+  position: relative;
+  margin: auto;
+  text-indent: 5%;
+}
+
+/* CurrentEvents Styling  */
+.currentEventsContainer {
+  background-color: coral;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.currentEventHeader {
+  top: 5%;
+  background-color: rgb(80, 255, 95);
+  max-height: 50%;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.header-item {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  text-align: center;
+  line-height: 11vh;
+  font-size: 3vh;
+  overflow: hidden;
+}
+.instaContainer {
+  width: 90%;
+  height: 5%;
+  background-color: cornflowerblue;
+  position: sticky;
+  top: 15%;
+  margin: auto;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 3%;
+  overflow: scroll;
+}
+
+.nataliaInstaProfilePicture {
+  width: 95%;
+  height: 100%;
+}
+.instaHeader {
+  background-color: blueviolet;
+  margin: 5% 18% auto;
+  color: white;
+}
+
+/* Bottom Page Styling -----------------------------> BOTTOM PAGE*/
+.bottomPage {
+  height: 3.5%;
+  width: 100%;
+  position: relative;
+  background-color: rgb(187, 185, 185);
+}
+.firstHalf {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  background-color: rgb(98, 98, 98);
+}
+.instaIcon {
+  /* background-color: rgb(44, 44, 44); */
+  max-width: 3%;
+  height: auto;
+  margin: auto;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 4vh;
+}
+.secondHalf {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  background-color: rgb(44, 44, 44);
+}
+.followMe {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 3vh;
+  /* background-color: rgb(44, 44, 44); */
+}
+.authorDetails {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 2vh;
+}
+.authorGitHub {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  color: whitesmoke;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 2vh;
+}
+
+/* About Page ------------------------------------ABOUT */
+
+.aboutMeContainer {
+  height: 80%;
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+  position: relative;
+  overflow: hidden;
+}
+.centerAbout {
+  height: 90%;
+  width: 90%;
+  background-color: rgb(255, 0, 0);
+  position: relative;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+.aboutLeftBody {
+  height: 100%;
+  width: 35%;
+  position: relative;
+  background-color: rgb(192, 192, 192);
+  overflow: scroll;
+  scrollbar-width: 0 !important;
+}
+.imageContainer {
+  height: auto;
+  max-width: 95%;
+  position: relative;
+  /* background-color: rgb(230, 230, 230); */
+  margin: auto;
+  text-align: center;
+}
+.aboutMeParagraphTitle {
+  width: 100%;
+  height: 60%;
+  /* background-color: rgb(0, 255, 221); */
+  position: relative;
+  top: 40%;
+  font-size: 5vh;
+  line-height: 20vh;
+  font-family: viktor-script, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  white-space: normal;
+}
+.image {
+  width: 100%;
+  height: 200%;
+  position: relative;
+  margin: auto;
+}
+.titleUnderImage {
+  text-align: left;
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  font-family: viktor-script, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-indent: 5%;
+  color: black;
+}
+.aboutRightBody {
+  height: 100%;
+  width: 65%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+.aboutHeader {
+  height: 40%;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  /* background-color: green; */
+  background-color: rgb(207, 207, 207);
+  text-align: center;
+  line-height: 30vh;
+  white-space: normal;
+  color: rgb(0, 0, 0);
+  font-size: 10vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.aboutMeParagraphContainer {
+  width: 100%;
+  height: 60%;
+  background-color: rgb(207, 207, 207);
+  position: relative;
+  overflow: scroll;
+  font-size: 2.5vh;
+  line-height: 5vh;
+}
+.aboutMeParagraph {
+  text-align: left;
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 5%;
+}
+/* Small About Page ------------------------------------ABOUT */
+.smallAboutVersion {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(214, 214, 214);
+  position: relative;
+}
+.smallAboutMeContainer {
+  height: 90%;
+  width: 80%;
+  background-color: rgb(207, 207, 207);
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+.smallAboutImageContainer {
+  height: 60%;
+  width: 80%;
+  background-color: rgb(143, 143, 143);
+  position: relative;
+  margin: auto;
+}
+.smallAboutProfileImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  overflow: visible;
+}
+.smallAboutHeader {
+  height: 15%;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  /* background-color: green; */
+  background-color: rgb(207, 207, 207);
+  text-align: center;
+  line-height: 10vh;
+  white-space: normal;
+  color: rgb(0, 0, 0);
+  font-size: 4vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.smallAboutMeParagraph {
+  text-align: left;
+  width: 95%;
+  height: 1%;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 5%;
+  line-height: 4vh;
+}
+
+/* Large Places View styling  */
+.largePlacesView {
+  height: auto;
+  width: 100%;
+  background-color: #bde0e0;
+  position: relative;
+  overflow: hidden;
+}
+/* Small Places View Styling */
+.SmallPlacesView {
+  height: auto;
+  width: 100%;
+  background-color: #bde0e0;
+  position: relative;
+  overflow: hidden;
+}
+/* Map Nav Bar */
+.mapNavBar {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(20, 130, 220);
+  position: sticky;
+  margin: auto;
+  display: flex;
+  border-radius: 5%;
+}
+.mapNavBarContainer {
+  width: 25%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.mapNavBarContainer:hover {
+  background-color: rgb(39, 149, 238);
+}
+/* Photo Table Styling ------------------------------------Photo Table*/
+.photoTableView {
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+}
+.photoRow {
+  width: 98%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(199, 199, 199);
+  display: flex;
+  left: 1%;
+}
+.galleryPhoto {
+  width: 30%;
+  height: 10%;
+  position: relative;
+  margin: auto;
+}
+.photoLocation {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+}
+.outer {
+  width: 70%;
+  height: auto;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  font-family: condor, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+}
+/* Photo Table Styling ------------------------------------Photo Grid*/
+.photoGrid {
+  height: 80%;
+  width: 100%;
+  background-color: rgb(168, 42, 42);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.row {
+  height: 40%;
+  width: 100%;
+  background-color: rgb(42, 71, 168);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+.cell {
+  height: 100%;
+  width: 25%;
+  background-color: rgb(42, 168, 84);
+  position: relative;
+  overflow: hidden;
+}
+.cellPicture {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  overflow: hidden;
+  object-fit: cover;
+}

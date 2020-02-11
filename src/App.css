@@ -20,3 +20,10 @@
 .App-link {
   color: #09d3ac;
 }
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
