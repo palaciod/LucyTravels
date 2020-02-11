@@ -91,6 +91,7 @@ export class Home extends Component {
         </div>
       );
     } else {
+      //
       return (
         <div className='page'>
           <NavBar />
